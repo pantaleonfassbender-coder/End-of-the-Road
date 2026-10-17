@@ -27,4 +27,4 @@ Files: `end-of-the-road-itch.zip` (from `public/`, `python itch/build-itch.py`; 
 
 - Do **not** use "Elvis" or "Follow That Dream" in the title, tags or cover (trademarks); the film may be named in the text.
 - For the Facebook groups: link the Netlify page or the itch page; ask for memories with permission for a later version.
-- **When the page is live:** tell me the URL; I set `ITCH_URL` in `game.js`, rebuild and push.
+- **Live** since 17 October 2026: https://leofassb.itch.io/end-of-the-road (linked from the title page, end page, footer and README); Netlify: https://end-of-the-road-the-game.netlify.app/

@@ -1,7 +1,7 @@
 /* End of the Road — the page. Rules in engine.js (window.EOR); texts and numbers in data/. Nothing is stored. */
 "use strict";
 (function () {
-  const ITCH_URL = "";
+  const ITCH_URL = "https://leofassb.itch.io/end-of-the-road";
   let D = null, PL = [], S = null;
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));

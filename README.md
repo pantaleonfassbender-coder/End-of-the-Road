@@ -2,6 +2,8 @@
 
 **A free documentary game: Yankeetown, Florida, in the summer of 1961.** A Hollywood film company came to the town at the end of State Road 40 to shoot *Follow That Dream*. You are the town: its council and the people who speak for it. First the company's three requests (paint the road, build a beach on Pumpkin Island, find local help), then six weeks of crowds, storms and questions. Each choice is marked as the record, a later account, a memory or a game assumption. Two voices, the town's quiet and the town's chance, are measured and neither wins. The star of the film is never a character.
 
+**Live:** https://end-of-the-road-the-game.netlify.app/ · **On itch.io:** https://leofassb.itch.io/end-of-the-road
+
 A short, independent local-history game; not affiliated with the film's makers, the estate of its star or any trademark holder. No image, music or text from the film is used.
 
 ## Sources
