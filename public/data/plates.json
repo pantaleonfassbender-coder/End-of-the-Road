@@ -1,0 +1,72 @@
+[
+ {
+  "id": "topo1955",
+  "credit": "US Geological Survey, Yankeetown quadrangle, 1:24,000, 1955. Public domain",
+  "title": {
+   "en": "The end of the road, 1955"
+  },
+  "caption": {
+   "en": "State Road 40 runs west from Inglis through Yankeetown and across the marsh to Pumpkin Island and Bird Creek, where it stops at the Gulf. The film's beach was built at the tip of the island."
+  },
+  "src": "assets/plates/topo1955.jpg",
+  "commons": "https://ngmdb.usgs.gov/topoview/",
+  "license": "Public domain",
+  "licenseUrl": ""
+ },
+ {
+  "id": "courthouse",
+  "credit": "State Archives of Florida, Florida Memory, RC03416, 21 Nov 1950. Public domain",
+  "title": {
+   "en": "The Citrus County Courthouse, Inverness, 1950"
+  },
+  "caption": {
+   "en": "The courthouse of 1912, where the film's courtroom scenes were shot in August 1961 with local people as extras."
+  },
+  "src": "assets/plates/courthouse.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Citrus_County_Courthouse-_Inverness,_Florida_(7493919056).jpg",
+  "license": "Public domain",
+  "licenseUrl": ""
+ },
+ {
+  "id": "road",
+  "credit": "Photograph by Ebyabe, 2007, CC BY 2.5",
+  "title": {
+   "en": "West of Yankeetown on State Road 40"
+  },
+  "caption": {
+   "en": "The road toward the Gulf, where the marsh opens to the water."
+  },
+  "src": "assets/plates/road.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Yankeetown_west01.jpg",
+  "license": "CC BY 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.5/"
+ },
+ {
+  "id": "townsign",
+  "credit": "Photograph by Ebyabe, 2007, CC BY 2.5",
+  "title": {
+   "en": "Yankeetown town limit"
+  },
+  "caption": {
+   "en": "A town of a few hundred people, governed by its council; in 2007 the sign still announced the meetings."
+  },
+  "src": "assets/plates/townsign.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Yankeetown_sign01.jpg",
+  "license": "CC BY 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.5/"
+ },
+ {
+  "id": "inglis",
+  "credit": "Photograph by Ebyabe, 2007, CC BY 2.5",
+  "title": {
+   "en": "Looking east into Inglis"
+  },
+  "caption": {
+   "en": "The neighbouring town on the way in from US 19, which every visitor to the set had to pass."
+  },
+  "src": "assets/plates/inglis.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Inglis_from_Yankeetown.jpg",
+  "license": "CC BY 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.5/"
+ }
+]

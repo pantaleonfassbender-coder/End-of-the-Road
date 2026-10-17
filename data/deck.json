@@ -1,0 +1,445 @@
+{
+ "title": "End of the Road",
+ "weeks": [
+  {
+   "w": 1,
+   "label": "Week 1 · 11–16 July 1961",
+   "crowd": 0.45,
+   "away": 0.35,
+   "storm": 0.25,
+   "text": "Shooting begins on 11 July. The company is quartered at the Port Paradise in Crystal River and drives up State Road 40 each morning. On the weekend of the 15th the unit is in Ocala for the bank scenes, and the fans follow it there.",
+   "src": "Film reference works (Wikipedia, TCM); Ocala Gazette, 'The summer of Elvis'",
+   "event": "beach"
+  },
+  {
+   "w": 2,
+   "label": "Week 2 · 17–23 July",
+   "crowd": 0.7,
+   "away": 0.15,
+   "storm": 0.3,
+   "text": "Word has spread across Florida, and cars come from all over the state to the end of State Road 40. For the first time the town needs someone to direct traffic.",
+   "src": "J. Kunerth, Orlando Sentinel, 14 Aug 1987 (reprinted by Elvis Australia, 2011)",
+   "event": "fishing"
+  },
+  {
+   "w": 3,
+   "label": "Week 3 · 24–30 July",
+   "crowd": 0.9,
+   "away": 0.1,
+   "storm": 0.35,
+   "text": "The busiest weeks at Bird Creek. At the end of the month the star makes a promotional visit to the mermaids at Weeki Wachee Springs.",
+   "src": "Visit Florida / Nature Coast accounts (30 or 31 July; the accounts differ)",
+   "event": "press"
+  },
+  {
+   "w": 4,
+   "label": "Week 4 · 31 July – 6 August",
+   "crowd": 1.0,
+   "away": 0.15,
+   "storm": 0.35,
+   "text": "Fans who cannot get near the set wait at the hotel in Crystal River. The company works on at the island and on the road.",
+   "src": "J. Kunerth, Orlando Sentinel, 14 Aug 1987 (reprinted by Elvis Australia, 2011)",
+   "event": "lunch"
+  },
+  {
+   "w": 5,
+   "label": "Week 5 · 7–13 August",
+   "crowd": 0.8,
+   "away": 0.5,
+   "storm": 0.3,
+   "text": "The courtroom scenes are filmed in the old Citrus County Courthouse at Inverness, with dozens of local people as extras. Yankeetown has some quiet days.",
+   "src": "Film reference works (Wikipedia, TCM)",
+   "event": null
+  },
+  {
+   "w": 6,
+   "label": "Week 6 · 14–20 August",
+   "crowd": 0.6,
+   "away": 0.2,
+   "storm": 0.3,
+   "text": "The last Florida scenes. After about six weeks in front of the cameras the company leaves for California, where the interiors are shot on a sound stage.",
+   "src": "Film reference works (Wikipedia, TCM)",
+   "event": "set"
+  }
+ ],
+ "prologue": [
+  {
+   "id": "road",
+   "prompt": "The film company asks to paint a stretch of State Road 40 black, so that it looks newly paved, and to stop traffic on it during takes.",
+   "note": "In the story a family settles on a strip of new state highway that nobody has opened yet. State Road 40 is the only road to the Gulf.",
+   "options": [
+    {
+     "value": "yes",
+     "label": "Agree",
+     "detail": "The record: the road was painted black for the film.",
+     "quiet": -0.03,
+     "chance": 0.06,
+     "prod": 0.08,
+     "src": "J. Kunerth, Orlando Sentinel, 14 Aug 1987 (reprinted by Elvis Australia, 2011)"
+    },
+    {
+     "value": "terms",
+     "label": "Agree, if the company restores the road and pays the town for the closures",
+     "detail": "Not in the record; a fair request that slows the talks.",
+     "quiet": 0.02,
+     "chance": 0.03,
+     "prod": -0.05,
+     "money": 300,
+     "src": "ass"
+    },
+    {
+     "value": "no",
+     "label": "Refuse: the road belongs to the people who live at the end of it",
+     "detail": "Not in the record. The company would have to find another road, and much of the filming with it.",
+     "quiet": 0.08,
+     "chance": -0.15,
+     "prod": -0.25,
+     "src": "ass"
+    }
+   ],
+   "short": "The road"
+  },
+  {
+   "id": "island",
+   "prompt": "The company wants to turn the tip of Pumpkin Island, by the Bird Creek bridge, into a white beach: clear the scrub, bring in fill and sand, build a thatched shack and a dock.",
+   "note": "The island is private land; a local real-estate man who owns part of it is working with the company. The town can welcome it, attach conditions, or object.",
+   "options": [
+    {
+     "value": "welcome",
+     "label": "Welcome it",
+     "detail": "The record: the scrub was cleared, tons of fill and white sand were dumped, palms were planted, a $20,000 shack and a dock were built.",
+     "quiet": -0.02,
+     "chance": 0.05,
+     "prod": 0.06,
+     "src": "J. Kunerth, Orlando Sentinel, 14 Aug 1987 (reprinted by Elvis Australia, 2011)"
+    },
+    {
+     "value": "restore",
+     "label": "Ask that the marsh be put back afterwards",
+     "detail": "Not in the record. Afterwards the set was taken down; the sand beach is gone today.",
+     "quiet": 0.03,
+     "chance": 0.02,
+     "prod": -0.03,
+     "src": "ass"
+    },
+    {
+     "value": "object",
+     "label": "Object, and write to the state",
+     "detail": "Not in the record. The land is not the town's; an objection costs goodwill and changes little.",
+     "quiet": 0.04,
+     "chance": -0.05,
+     "prod": -0.12,
+     "src": "ass"
+    }
+   ],
+   "short": "Pumpkin Island"
+  },
+  {
+   "id": "hire",
+   "prompt": "Who will find the local help: the boys to haul sand, the people to stand in the background?",
+   "note": "",
+   "options": [
+    {
+     "value": "scout",
+     "label": "Leave it to the company's local man",
+     "detail": "The record: a Yankeetown real-estate agent acted as the company's talent scout, recruited extras and played a gangster himself; two seventeen-year-old twins were hired to build the beach.",
+     "quiet": 0,
+     "chance": 0.04,
+     "prod": 0.04,
+     "hires": 1.0,
+     "src": "J. Kunerth, Orlando Sentinel, 14 Aug 1987 (reprinted by Elvis Australia, 2011)"
+    },
+    {
+     "value": "notice",
+     "label": "Ask the company to post the jobs at the post office for anyone in town",
+     "detail": "Not in the record. More people get a chance; the company finds it slower.",
+     "quiet": 0.02,
+     "chance": 0.06,
+     "prod": -0.03,
+     "hires": 1.5,
+     "src": "ass"
+    },
+    {
+     "value": "none",
+     "label": "Stay out of it",
+     "detail": "The company hires whom it likes, some of them from outside.",
+     "quiet": 0.01,
+     "chance": -0.02,
+     "prod": 0.02,
+     "hires": 0.6,
+     "src": "ass"
+    }
+   ],
+   "short": "Local help"
+  }
+ ],
+ "policies": [
+  {
+   "id": "open",
+   "label": "Leave the bridge open between takes",
+   "detail": "The record: between takes the Bird Creek bridge stayed open, so fans could drive slowly past the set.",
+   "manage": 0.25,
+   "cost": 0,
+   "src": "J. Kunerth, Orlando Sentinel, 14 Aug 1987 (reprinted by Elvis Australia, 2011)"
+  },
+  {
+   "id": "residents",
+   "label": "Close the road beyond town to all but residents during shooting",
+   "detail": "Not in the record. Quieter for the town; the visitors' money stays in Inglis and Crystal River.",
+   "manage": 0.6,
+   "cost": 0,
+   "spend": 0.4,
+   "src": "ass"
+  },
+  {
+   "id": "deputies",
+   "label": "Ask the sheriff for deputies and pay volunteers to direct traffic",
+   "detail": "In Ocala, police, deputies and the Junior Chamber of Commerce's motorcycle team kept the crowds back. Here it costs the town money.",
+   "manage": 0.5,
+   "cost": 60,
+   "src": "ass"
+  }
+ ],
+ "events": {
+  "beach": {
+   "prompt": "The director looks at the new beach and does not like it. The company wants to clear more and bring in more sand for a second one.",
+   "options": [
+    {
+     "value": "yes",
+     "label": "Let them",
+     "detail": "The record: the first beach was rejected and a second one built.",
+     "quiet": -0.03,
+     "prod": 0.05,
+     "money": 150,
+     "src": "J. Kunerth, Orlando Sentinel, 14 Aug 1987 (reprinted by Elvis Australia, 2011)"
+    },
+    {
+     "value": "no",
+     "label": "Say one beach is enough for Bird Creek",
+     "detail": "Not in the record.",
+     "quiet": 0.03,
+     "prod": -0.1,
+     "src": "ass"
+    }
+   ],
+   "short": "A second beach"
+  },
+  "fishing": {
+   "prompt": "For a scene on the Bird Creek bridge the company needs about twenty people fishing in the background, at twenty dollars each for a few minutes' work. The fish are made of rubber.",
+   "options": [
+    {
+     "value": "residents",
+     "label": "Make sure the places go to Yankeetown people",
+     "detail": "The record: about twenty Yankeetown residents were paid $20 each for some fifteen minutes on the bridge.",
+     "quiet": 0.04,
+     "chance": 0.05,
+     "money": 400,
+     "src": "J. Kunerth, Orlando Sentinel, 14 Aug 1987 (reprinted by Elvis Australia, 2011)"
+    },
+    {
+     "value": "anyone",
+     "label": "Let the company take whoever is standing there",
+     "detail": "Not in the record: the fans by the bridge would have been glad to do it for nothing.",
+     "quiet": -0.02,
+     "chance": 0.02,
+     "money": 120,
+     "src": "ass"
+    }
+   ],
+   "short": "The fishermen on the bridge"
+  },
+  "press": {
+   "prompt": "Reporters and photographers are kept off the set. A newspaperman asks the town to let him stand on the public road by the bridge.",
+   "options": [
+    {
+     "value": "road",
+     "label": "The road is public: he may stand on it",
+     "detail": "Not in the record. The company is annoyed; the papers are friendly to Yankeetown.",
+     "chance": 0.06,
+     "prod": -0.06,
+     "src": "ass"
+    },
+    {
+     "value": "company",
+     "label": "Back the company's closed set",
+     "detail": "One later account says reporters and photographers were barred from the set.",
+     "chance": -0.02,
+     "prod": 0.05,
+     "src": "secondary"
+    }
+   ],
+   "short": "The reporter"
+  },
+  "lunch": {
+   "prompt": "The company asks to set up its lunch tables in the little park by the river every day.",
+   "options": [
+    {
+     "value": "yes",
+     "label": "Yes, and let the town's people see the show",
+     "detail": "One visitor remembered the crew's lunch being served at a nearby park.",
+     "quiet": -0.02,
+     "chance": 0.04,
+     "money": 80,
+     "src": "memory"
+    },
+    {
+     "value": "no",
+     "label": "No: the park is for the town",
+     "detail": "Not in the record.",
+     "quiet": 0.03,
+     "prod": -0.04,
+     "src": "ass"
+    }
+   ],
+   "short": "The crew's lunch"
+  },
+  "set": {
+   "prompt": "The filming is over. What becomes of the thatched shack on Pumpkin Island?",
+   "options": [
+    {
+     "value": "ranch",
+     "label": "Let it go where the company wants to give it",
+     "detail": "The record: the shack went to the Florida Sheriffs Boys Ranch at Live Oak.",
+     "chance": 0.02,
+     "src": "J. Kunerth, Orlando Sentinel, 14 Aug 1987 (reprinted by Elvis Australia, 2011)"
+    },
+    {
+     "value": "keep",
+     "label": "Ask to keep it at the end of the road, as something to show visitors",
+     "detail": "Not in the record. The beach and its shack would have needed upkeep on private land.",
+     "chance": 0.05,
+     "quiet": -0.02,
+     "src": "ass"
+    }
+   ],
+   "short": "The shack"
+  }
+ },
+ "record": [
+  {
+   "what": "The road",
+   "text": "A stretch of State Road 40 was painted black to look newly paved.",
+   "src": "J. Kunerth, Orlando Sentinel, 14 Aug 1987 (reprinted by Elvis Australia, 2011)"
+  },
+  {
+   "what": "The beach",
+   "text": "On Pumpkin Island scrub was cleared and tons of fill and white sand dumped; the first beach was rejected and a second built; palms that died were painted green; a telephone pole became a palm trunk.",
+   "src": "J. Kunerth, Orlando Sentinel, 14 Aug 1987 (reprinted by Elvis Australia, 2011)"
+  },
+  {
+   "what": "The shack",
+   "text": "A thatch-roofed shack costing $20,000 and a boat dock; after filming the set was taken down and the shack went to the Florida Sheriffs Boys Ranch in Live Oak.",
+   "src": "J. Kunerth, Orlando Sentinel, 14 Aug 1987 (reprinted by Elvis Australia, 2011)"
+  },
+  {
+   "what": "Local people",
+   "text": "About twenty Yankeetown residents were paid $20 each for about fifteen minutes' work fishing with rubber fish from the Bird Creek bridge; seventeen-year-old twins built the beach; a local real-estate agent recruited extras and played a gangster.",
+   "src": "J. Kunerth, Orlando Sentinel, 14 Aug 1987 (reprinted by Elvis Australia, 2011)"
+  },
+  {
+   "what": "The crowds",
+   "text": "Fans came from all over Florida and created the town's first need for traffic control; the bridge was left open between takes so they could drive slowly by.",
+   "src": "J. Kunerth, Orlando Sentinel, 14 Aug 1987 (reprinted by Elvis Australia, 2011)"
+  },
+  {
+   "what": "Ocala",
+   "text": "The bank scenes took two long weekends; police, sheriff's deputies and the Jaycees' motorcycle team kept the crowd back. The film had its local premiere at the Marion Theatre on 11 April 1962, before nearly a thousand people.",
+   "src": "Ocala Gazette, 'The summer of Elvis'"
+  },
+  {
+   "what": "Afterwards",
+   "text": "On 27 July 1996 State Road 40 west of US 19 was named the Follow That Dream Parkway. A marker stands in Yankeetown; Inglis has a visitor centre. The beach is gone.",
+   "src": "Visit Florida / Nature Coast accounts; Natural North Florida"
+  }
+ ],
+ "readings": [
+  {
+   "id": "kinds",
+   "title": "Record, report, memory",
+   "status": "sec",
+   "text": "Almost everything known about the summer of 1961 comes from newspaper reports and from people who remembered it decades later. This game marks which is which: 'record' for what the reports agree on, 'memory' for one person's recollection, 'game assumption' for what the game invents to make a choice."
+  },
+  {
+   "id": "star",
+   "title": "The star is not a character",
+   "status": "sec",
+   "text": "The game never puts words or actions into the mouth of the star of the film. He is what everyone came to see; the game is about the town that lived with it for six weeks."
+  }
+ ],
+ "epilogue": [
+  "The company left in August 1961. The interiors were filmed in California, and the film opened in 1962; Ocala had its premiere at the Marion Theatre on 11 April.",
+  "On Pumpkin Island the set was taken down. The sand beach has gone back to marsh and the shack went to the Florida Sheriffs Boys Ranch.",
+  "Thirty-five years later, on 27 July 1996, the road to the end of the land was named the Follow That Dream Parkway. A marker in Yankeetown and a visitor centre in Inglis keep the summer of 1961.",
+  "Do you or your family remember that summer? The author would be glad to hear it, with your permission, for a later version: write to the address on the legal page."
+ ],
+ "tuning": {
+  "start": {
+   "quiet": 0.75,
+   "chance": 0.35,
+   "prod": 0.6
+  },
+  "visitorsPerWeek": 1800,
+  "visitorSpend": 0.12,
+  "quietLoss": 0.14,
+  "chanceGain": 0.08,
+  "stormDays": [
+   1,
+   2
+  ],
+  "lostDayProd": 0.03,
+  "drift": 0.04,
+  "hireMoney": 200
+ },
+ "tuningNote": "Visitors, spending, storms and moods are this game's assumptions; the record gives no counts for them.",
+ "weeksNote": "Only the start on 11 July and the Ocala weekend from 15 July are dated in the accounts used here; the order of the other weeks' scenes is this game's arrangement.",
+ "watch": {
+  "note": "Links to YouTube open in a new tab; nothing from YouTube is loaded on this page. The videos are their makers' own; this game is not responsible for their content.",
+  "groups": [
+   {
+    "label": "The song",
+    "links": [
+     {
+      "t": "“Follow That Dream” (remastered), the official recording",
+      "by": "Elvis Presley – Topic",
+      "url": "https://www.youtube.com/watch?v=zD0xsv2BHFw"
+     }
+    ]
+   },
+   {
+    "label": "The places today",
+    "links": [
+     {
+      "t": "Bird Creek Bridge and the C40 ramp, Yankeetown",
+      "by": "Gary Moore",
+      "url": "https://www.youtube.com/watch?v=7P8F1UfDXR0"
+     },
+     {
+      "t": "Follow That Dream movie locations, summer of 1961: Inverness, Ocala, Inglis and Yankeetown",
+      "by": "Spa Guy",
+      "url": "https://www.youtube.com/watch?v=lecUTwRIXLg"
+     },
+     {
+      "t": "Elvis in Yankeetown, Florida",
+      "by": "Jeff Hall",
+      "url": "https://www.youtube.com/watch?v=JrnUHnh4OoQ"
+     },
+     {
+      "t": "Elvis in Dunnellon and Yankeetown",
+      "by": "Boomtown Chronicles",
+      "url": "https://www.youtube.com/watch?v=4aSrf8ZY5e0"
+     }
+    ]
+   },
+   {
+    "label": "Someone who was there",
+    "links": [
+     {
+      "t": "Interview with Robin and Gavin Koon, the twins from the film",
+      "by": "Always Elvis",
+      "url": "https://www.youtube.com/watch?v=rrpa8jFVPO4"
+     }
+    ]
+   }
+  ]
+ }
+}

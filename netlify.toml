@@ -1,0 +1,3 @@
+# Netlify publishes only public/ (built by tools/build_public.py).
+[build]
+  publish = "public"
